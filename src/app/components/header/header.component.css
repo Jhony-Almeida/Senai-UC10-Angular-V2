@@ -1,0 +1,94 @@
+
+header {
+    width: 100%; 
+    background-image: linear-gradient(to right,rgb(21, 5, 77),rgb(30, 7, 112),rgb(33, 8, 124), rgb(47, 20, 145));  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-imagem {
+    width: 10px;
+    height: 120px;
+    
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.barra-pesquisa {
+    display: flex;
+    height: 50px;
+
+}
+
+.navbar button{
+    color: white;
+    background-color: rgb(21, 5, 77);
+
+}
+
+.navbar button:hover{
+    color: white;
+    background: #202486;
+}
+
+
+.login p {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.login p a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+}   
+
+.login p a:hover {
+    background-color: rgb(9, 76, 177);
+    border-radius: 10px;
+
+}
+
+.icone-carrinho {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.barra-procura {
+    width: 100%;
+    height: 80px;
+    background-color: #202486; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 280px;
+    margin-bottom: 0rem;
+}
+
+.barra-procura h3 {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.barra-procura h3:hover {
+    background-color: rgb(9, 76, 177);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,39 @@
+footer {
+    width: 100%;
+    background-color: #202486;
+    padding: 45px 280px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.pagamentos img {
+    width: 50px;
+    height: 35px;
+}
+
+.selos h2{
+    text-align: center;
+}
+
+
+.selos img {
+    width: 201px;
+    height: 50px;
+}
+
+.institucional {
+    display: inline-block;
+}
+
+.institucional li {
+    color: white;
+    text-transform: none;
+}
+
+
+.atendimento {
+    display: inline-block;
+    padding: 0px 15px;
+}

@@ -1,0 +1,29 @@
+<body>
+<div id="login">
+    <form (ngSubmit)="receberDados()" class="card"> 
+        <div class="logo"> <a href="index.html"><img src="/assets/img/logo.png" alt="logo"></a></div>
+        <div class="card-header">
+            <h2>Login</h2>
+        </div>
+        <div class="card-content">
+            <div class="card-content-area">
+                <label for="usuario">Email</label>
+                <input type="email" id="usuario" name="nome" [(ngModel)]="userModel.email">
+            </div>
+            <div class="card-content-area">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password"[(ngModel)]=userModel.password>
+            </div>
+        </div>
+        <div class="card-footer">
+            <input type="submit" id="log" class="logar container" value="Fazer Login">
+            <a href="#" id="esquecer-senha" class="recuperar_senha">Esqueceu a senha?</a>
+        </div>
+        <!-- <div class="card-footer">
+            <a href="#" id="log" class="logar container" type="submit"><p>Login<p></a>
+            <a href="#" id="esquecer-senha" class="recuperar_senha">Esqueceu a senha?</a> 
+        </div> -->
+    </form>
+</div>
+<p id = "mensagem" *ngIf=" mensagem != '' ">{{mensagem}}</p>
+</body>
